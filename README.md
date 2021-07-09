@@ -1,4 +1,5 @@
 # pokedex_vue_app
+Proyecto creado con Vue, ejecutar npm install y luego npm run serve
 
 ## Project setup
 ```
