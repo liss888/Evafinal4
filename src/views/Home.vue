@@ -1,7 +1,12 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <img alt="Vue logo" src="../assets/Pokebola.png" width="100px" /><br>
+    <HelloWorld msg="Bienvenidos a nuestra App Pokédex del Equipo 123" /><br>
+    <h2><strong>Podrás atrapar Todos los Pokémons que desees!</strong></h2><br>
+    <h3><strong>Anímate dale Play!</strong></h3><br>
+    <audio controls>
+    <source src="../assets/mp3/Pokemon.mp3" type="audio/mp3">
+    </audio>
   </div>
 </template>
 
@@ -16,3 +21,10 @@ export default {
   },
 };
 </script>
+
+<style>
+  audio {
+border: solid red  ;
+border-radius: 30px;
+  }
+</style>
